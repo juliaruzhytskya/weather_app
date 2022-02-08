@@ -11,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Weather App', home: MyHomePage(title: 'Flutter WeatherApp'));
+    return const MaterialApp(debugShowCheckedModeBanner: false, title: 'Weather App', home: MyHomePage(title: 'Flutter WeatherApp'));
   }
 }
