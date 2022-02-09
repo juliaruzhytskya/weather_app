@@ -12,12 +12,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  cupertino_icons: ^1.0.4
+  flutter_native_splash: ^2.0.2
+  geocoding: ^2.0.2
+  geolocator: ^8.1.1
+  http: ^0.13.4
+
 flutter_native_splash:
   color: "#ffffff"
   background_image: "assets/images/splash.png"
-
-  cupertino_icons: ^1.0.4
-  flutter_native_splash: ^2.0.2
 
 dev_dependencies:
   flutter_test:
